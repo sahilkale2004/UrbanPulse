@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply antialiased text-slate-800 bg-slate-50;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom map marker styles */
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}

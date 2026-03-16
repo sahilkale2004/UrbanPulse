@@ -1,0 +1,12 @@
+# Dependencies
+frontend/node_modules
+backend/node_modules
+
+# Environment variables
+.env
+
+# Virtual Environment
+urbanpulse_env
+
+# Python cache
+__pycache__
